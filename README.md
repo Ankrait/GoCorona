@@ -1,1 +1,1 @@
-# [Ссылка на сайт](https://ankrait.github.io/Project_1/)
+# [Ссылка на сайт](https://ankrait.github.io/GoCorona/)
