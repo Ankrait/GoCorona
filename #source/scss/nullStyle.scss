@@ -31,11 +31,11 @@ body {
    width: 100%;
    font-size: 100%;
    line-height: 1;
-   font-size: 18px;
+   font-size: 12px;
    -ms-text-size-adjust: 100%;
    -moz-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
-   font-family: Inter;
+   font-family: Rubik;
 }
 input,
 button,
@@ -75,21 +75,3 @@ h6 {
    font-weight: inherit;
 }
 /*--------------------*/
-
-[class*="__container"] {
-   max-width: 1430px;
-   padding: 0 15px;
-   margin: 0 auto;
-}
-
-.wrapper {
-   overflow: hidden;
-   display: flex;
-   flex-direction: column;
-   min-height: 100%;
-   background: #e5e5e5;
-}
-
-.main {
-   flex: 1 1 100%;
-}

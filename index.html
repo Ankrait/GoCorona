@@ -5,388 +5,207 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>New Project</title>
+   <title>GoCorona</title>
    <link rel="stylesheet" href="css/style.css">
-   <link href="https://fonts.googleapis.com/css?family=Inter:regular&display=swap" rel="stylesheet" />
-   <link href="https://fonts.googleapis.com/css?family=Lora:regular,500,500italic&display=swap" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Rubik:regular,700&display=swap" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Raleway:700,800&display=swap" rel="stylesheet" />
 </head>
 
 <body>
    <div class="wrapper">
-<header class="header">
-   <div class="header__container">
-      <a href="#" class="header__logo">
-         Sweet Dream
-      </a>
-      <nav class="header__menu menu">
-         <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Корзина <span>( 0 )</span></a></li>
-         </ul>
-      </nav>
-      <a href="#" class="header__burger">
-         <span></span>
-      </a>
-   </div>
-</header>      <main class="main">
-         <div class="preview">
-            <div class="preview__container">
-               <div class="preview__title">
-                  <h1>
-                     Авторские торты от <span>Sweet Dream</span>
-                  </h1>
-                  <img src="img/main/preview/leftUp.png" alt="Картинка блока превью" class="_1">
-                  <img src="img/main/preview/rightUp.png" alt="Картинка блока превью" class="_2">
-                  <img src="img/main/preview/leftDown.png" alt="Картинка блока превью" class="_3">
-                  <img src="img/main/preview/rightDown.png" alt="Картинка блока превью" class="_4">
+      <header class="header">
+         <div class="header__container">
+            <a href="#" class="header__logo">
+               <img src="img/menu/logo.svg" alt="Логотип">
+            </a>
+            <nav class="header__menu menu">
+               <ul class="menu__list">
+                  <li class="menu__item"><a href="#" class="menu__link">HOME</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">FEATURES</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">SUPPORT</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">CONTACT US</a></li>
+               </ul>
+            </nav>
+            <div class="header__button">
+               <a class="button button-blue">DOWNLOAD</a>
+               <a href="#" class="header__burger"><span></span></a>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+         <section class="get-started">
+            <div class="get-started__container">
+               <div class="get-started__content">
+                  <div class="get-started__block-text block-text">
+                     <div class="block-text__title block-text__title-blue">
+                        Take care of yours family's <span>health.</span>
+                     </div>
+                     <div class="block-text__text get-started__block-text-text">
+                        All in one destination for COVID-19 health queries. Consult 10,000+ health workers about your
+                        concerns.
+                     </div>
+                     <a href="#" class="get-started__button button">
+                        GET STARTED
+                     </a>
+                  </div>
+                  <div class="get-started__image">
+                     <img src="img/get-started/doctor.svg" alt="Доктор с ребенком">
+                  </div>
                </div>
-               <div class="preview__text">
-                  Наши торты украшают меню выездных мероприятий самого высокого статуса в Санкт-Петербурге и
-                  Ленинградской области
-               </div>
-               <a href="#" class="preview__button button">
-                  <p>Перейти в каталог</p>
-                  <img src="img/main/preview/arrow.svg" alt="Стрелка кнопки">
+               <a class="get-started__video video-get-started">
+                  <div class="video-get-started__icon">
+                     <img src="img/get-started/video.svg" alt="Кнопка Play">
+                  </div>
+                  <div class="video-get-started__body">
+                     <div class="video-get-started__title">
+                        Stay safe with GoCorona
+                     </div>
+                     <div class="video-get-started__text">
+                        Watch Video
+                     </div>
+                  </div>
                </a>
             </div>
-         </div>
-         <div class="catalog">
-            <div class="catalog__container">
-               <div class="catalog__content">
-
-                  <div class="catalog__item item _1">
-                     <div class="item__image">
-                        <img src="img/main/catalog/lesYagoda.png" alt="Товар лесная ягода">
-                     </div>
-                     <div class="item__body">
-                        <div class="item__info info">
-                           <div class="info__name">
-                              Тарт Лесная ягода <span>150 гр</span>
-                           </div>
-                           <div class="info__cost">
-                              200₽
-                           </div>
-                        </div>
-                        <div class="item__buttons">
-                           <a href="#">ДОБАВИТЬ В КОРЗИНУ</a>
-                           <a href="#">КУПИТЬ В ОДИН КЛИК</a>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="catalog__item item _2">
-                     <div class="item__image">
-                        <img src="img/main/catalog/wokoladLyaz.png" alt="Товар шоколадный льяж">
-                     </div>
-                     <div class="item__body">
-                        <div class="item__info info">
-                           <div class="info__name">
-                              Шоколадный льяж <span>800 гр</span>
-                           </div>
-                           <div class="info__cost">
-                              1500₽
-                           </div>
-                        </div>
-                        <div class="item__buttons">
-                           <a href="#">ДОБАВИТЬ В КОРЗИНУ</a>
-                           <a href="#">КУПИТЬ В ОДИН КЛИК</a>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="catalog__item item _3">
-                     <div class="item__image">
-                        <img src="img/main/catalog/chizkeyk.png" alt="Товар Cливоный чизкейк">
-                     </div>
-                     <div class="item__body">
-                        <div class="item__info info">
-                           <div class="info__name">
-                              Сливочный чизкейк <span>300 гр</span>
-                           </div>
-                           <div class="info__cost">
-                              500₽
-                           </div>
-                        </div>
-                        <div class="item__buttons">
-                           <a href="#">ДОБАВИТЬ В КОРЗИНУ</a>
-                           <a href="#">КУПИТЬ В ОДИН КЛИК</a>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="catalog__item item _4">
-                     <div class="item__image">
-                        <img src="img/main/catalog/redBarxat.png" alt="Товар торт “Красный бархат”">
-                     </div>
-                     <div class="item__body">
-                        <div class="item__info info">
-                           <div class="info__name">
-                              Торт “Красный бархат” <span>1500 гр</span>
-                           </div>
-                           <div class="info__cost">
-                              1200₽
-                           </div>
-                        </div>
-                        <div class="item__buttons">
-                           <a href="#">ДОБАВИТЬ В КОРЗИНУ</a>
-                           <a href="#">КУПИТЬ В ОДИН КЛИК</a>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="catalog__item item _5">
-                     <div class="item__image">
-                        <img src="img/main/catalog/orex.png" alt="Товар ореховый микс">
-                     </div>
-                     <div class="item__body">
-                        <div class="item__info info">
-                           <div class="info__name">
-                              Ореховый микс <span>1500 гр</span>
-                           </div>
-                           <div class="info__cost">
-                              2000₽
-                           </div>
-                        </div>
-                        <div class="item__buttons">
-                           <a href="#">ДОБАВИТЬ В КОРЗИНУ</a>
-                           <a href="#">КУПИТЬ В ОДИН КЛИК</a>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="catalog__item item _6">
-                     <div class="item__image">
-                        <img src="img/main/catalog/dream.png" alt="Товар карамельная мечта">
-                     </div>
-                     <div class="item__body">
-                        <div class="item__info info">
-                           <div class="info__name">
-                              Карамельная мечта <span>1500 гр</span>
-                           </div>
-                           <div class="info__cost">
-                              1500₽
-                           </div>
-                        </div>
-                        <div class="item__buttons">
-                           <a href="#">ДОБАВИТЬ В КОРЗИНУ</a>
-                           <a href="#">КУПИТЬ В ОДИН КЛИК</a>
-                        </div>
-                     </div>
-                  </div>
-
+         </section>
+         <section class="features">
+            <div class="features__container">
+               <div class="features__phone">
+                  <img src="img/features/phone.svg" alt="Телефон">
+                  <div class="features__decor _1"></div>
+                  <div class="features__decor _2"></div>
+                  <div class="features__decor _3"></div>
                </div>
-               <a href="#" class="catalog__button button">
-                  <p>Перейти в каталог</p>
-                  <img src="img/main/preview/arrow.svg" alt="Стрелка кнопки">
-               </a>
-            </div>
-         </div>
-         <div class="director">
-            <div class="director__container">
-               <div class="director__images">
-                  <img src="img/main/director/director_photo.png" alt="Фото директора">
-                  <div class="director__tabs">
-                     <span></span>
-                     <span></span>
-                     <span class="_active"></span>
-                     <span></span>
-                     <span></span>
-                  </div>
-               </div>
-               <div class="director__info info-director">
-                  <div class="info-director__title">
-                     Андрей Карлонов
-                  </div>
-                  <div class="info-director__subtitle">
-                     Шеф-Директор «Sweet Dream»
-                  </div>
-                  <div class="info-director__text">
-                     <p>
-                        За плечами у Андрея огромный опыт. С 16 лет он изучал кондитерское мастерство, а в 21 стал самым
-                        юным шеф-поваром в Париже.
-                        В 2011 году завоевал титул чемпиона мира в самом престижном международном конкурсе la Coupe du.
-                     </p>
-                     <p>
-                        Его фирменная особенность — оригинальное сочетание цветов, вкусов и сложнейший художественный
-                        декор.
-                        А в 32 года вернулся в Россию и основал со своим лучшим другом, Антоном Бевальским свою
-                        кондитерскую Sweet Dream.
-                     </p>
+               <div class="features__body">
+                  <div class="features__block-text block-text">
+                     <div class="block-text__title">
+                        Stay safe with <span>GoCorona.</span>
+                     </div>
+                     <div class="block-text__text features__block-text-text">
+                        24x7 Support and user friendly mobile platform to bring healthcare to your fingertips. Signup
+                        and be a part of the new health culture.
+                     </div>
+                     <a href="#" class="features__button button">
+                        Features
+                     </a>
                   </div>
                </div>
             </div>
-         </div>
-         <div class="blog">
-            <div class="blog__container">
-               <div class="blog__title">
-                  Наш блог
+         </section>
+         <section class="experts">
+            <div class="experts__container">
+               <div class="experts__stats stats">
+                  <div class="stats__body">
+                     <div class="stats__item">
+                        <div class="stats__value">2m</div>
+                        <div class="stats__name">Users</div>
+                     </div>
+                     <div class="stats__item">
+                        <div class="stats__value">78</div>
+                        <div class="stats__name">Countries</div>
+                     </div>
+                     <div class="stats__item">
+                        <div class="stats__value">10,000+</div>
+                        <div class="stats__name">Medical experts</div>
+                     </div>
+                  </div>
+                  <div class="stats__decor _1"></div>
+                  <div class="stats__decor _2"></div>
+                  <div class="stats__decor _3"></div>
                </div>
-               <a class="blog__button">
-                  ПОСМОТРЕТЬ ВСЕ
-               </a>
-               <div class="blog__items">
-                  <div class="blog__item item-blog">
-                     <div class="item-blog__image">
-                        <img src="img/main/blog/photo_1.png" alt="картинка блога">
+               <div class="experts__body">
+                  <div class="experts__block-text block-text">
+                     <div class="block-text__title block-text__title-blue">
+                        Talk to <span>experts.</span>
                      </div>
-                     <div class="item-blog__date">
-                        2 марта, 2022
+                     <div class="block-text__text">
+                        Book appointments or submit queries into thousands of forums concerning health issues and
+                        prevention against noval Corona Virus.
                      </div>
-                     <div class="item-blog__title">
-                        Торты для девушек
-                        — подари улыбку
-                     </div>
-                     <div class="item-blog__text">
-                        Торт с нестандартным оформлением — идеальный подарок, способный порадовать девушку. Кому
-                        подойдёт, как выбрать? Будем разбираться.
-                     </div>
+                     <a href="#" class="experts__button button">
+                        Features
+                     </a>
                   </div>
-
-                  <div class="blog__item item-blog">
-                     <div class="item-blog__image">
-                        <img src="img/main/blog/photo_2.png" alt="картинка блога">
-                     </div>
-                     <div class="item-blog__date">
-                        20 февраля, 2022
-                     </div>
-                     <div class="item-blog__title">
-                        Торты для парней
-                        — подари счастье
-                     </div>
-                     <div class="item-blog__text">
-                        Торт с нестандартой начинкой — идеальный подарок, способный порадовать своего парня или отца.
-                        Давайте посмотрим все торты для мужчин.
-                     </div>
-                  </div>
-
-                  <div class="blog__item item-blog">
-                     <div class="item-blog__image">
-                        <img src="img/main/blog/photo_3.png" alt="картинка блога">
-                     </div>
-                     <div class="item-blog__date">
-                        25 декабря, 2021
-                     </div>
-                     <div class="item-blog__title">
-                        Как выбрать торт на Новый год?
-                     </div>
-                     <div class="item-blog__text">
-                        Новый год уже на носу, а вы не знаете какой десерт подойдет к вашему столу. Давайте разберемся и
-                        подбрем вам торт к Новому году.
-                     </div>
-                  </div>
+                  <a class="experts__video" href="#">
+                     <img src="img/experts/videoImg.svg" alt="Заставка видео" class="experts__videoImg">
+                     <img src="img/experts/playVideo.svg" alt="Кнопка Play Видео" class="experts__playBut">
+                  </a>
                </div>
             </div>
-         </div>
-         <div class="location">
-            <div class="location__container">
-               <div class="location__body">
-                  <div class="location__title">
-                     Наши филиалы
+         </section>
+         <section class="healthcare">
+            <div class="healthcare__container">
+               <div class="healthcare__block-text block-text">
+                  <div class="block-text__title">
+                     <span>Healthcare</span> at your Fingertips.
                   </div>
-                  <div class="location__items">
-                     <div data-value="Адмиралтейская" class="location__item item-location _active">
-                        <div class="item-location__title">
-                           Адмиралтейкая
-                        </div>
-                        <div class="item-location__street">
-                           ул. Жуковского 31
-                        </div>
-                        <div class="item-location__number">
-                           +7 941 312 21 41
-                        </div>
-                        <div class="item-location__time">
-                           ежедневно с 9:00 до 21:00
-                        </div>
-                     </div>
-
-                     <div data-value="Гражданский проспект" class="location__item item-location">
-                        <div class="item-location__title">
-                           Гражданский проспект
-                        </div>
-                        <div class="item-location__street">
-                           ул. Руставелли 56
-                        </div>
-                        <div class="item-location__number">
-                           +7 941 312 21 41
-                        </div>
-                        <div class="item-location__time">
-                           ежедневно с 9:00 до 21:00
-                        </div>
-                     </div>
-
-                     <div data-value="Купчино" class="location__item item-location">
-                        <div class="item-location__title">
-                           Купчино
-                        </div>
-                        <div class="item-location__street">
-                           пр. Дунайский 28
-                        </div>
-                        <div class="item-location__number">
-                           +7 941 312 21 41
-                        </div>
-                        <div class="item-location__time">
-                           ежедневно с 9:00 до 21:00
-                        </div>
-                     </div>
-
-                     <div data-value="Новочеркасская" class="location__item item-location">
-                        <div class="item-location__title">
-                           Новочеркасская
-                        </div>
-                        <div class="item-location__street">
-                           пр. Охтинский 116
-                        </div>
-                        <div class="item-location__number">
-                           +7 941 312 21 41
-                        </div>
-                        <div class="item-location__time">
-                           ежедневно с 9:00 до 21:00
-                        </div>
-                     </div>
+                  <div class="block-text__text healthcare__block-text-text">
+                     Bringing premium healthcare features to your fingertips. User friendly mobile platform to bring
+                     healthcare to your fingertips. Signup and be a part of the new health culture.
                   </div>
                </div>
-               <div class="location__map">
-                  <iframe data-value="Адмиралтейская" class="_active" src="https://yandex.ru/map-widget/v1/-/CCUFZKey-D"
-                     frameborder="1" allowfullscreen="true">
-                  </iframe>
-                  <iframe data-value="Гражданский проспект" src="https://yandex.ru/map-widget/v1/-/CCUFZPdyWD"
-                     frameborder="1" allowfullscreen="true">
-                  </iframe>
-                  <iframe data-value="Купчино" src="https://yandex.ru/map-widget/v1/-/CCUFZPdyWD" frameborder="1"
-                     allowfullscreen="true">
-                  </iframe>
-                  <iframe data-value="Новочеркасская"
-                     src="https://yandex.ru/map-widget/v1/?um=constructor%3A92aa3ddad172aaede2507881d95b00a3f82fee53d16363cdb66dcfbe656e6d9b&amp;source=constructor"
-                     frameborder="0">
-                  </iframe>
+               <div class="healthcare__content content">
+                  <div class="content__column">
+                     <div class="content__item">
+                        <div class="content__icon">
+                           <img src="img/healthcare/icon1.svg" alt="иконка 1">
+                        </div>
+                        <div class="content__body">
+                           <div class="content__title">
+                              Symptom Checker
+                           </div>
+                           <div class="content__text">
+                              Check if you are infected by COVID-19 with our Symptom Checker
+                           </div>
+                        </div>
+                     </div>
+                     <div class="content-item__decor _1"></div>
+                     <div class="content-item__decor _2"></div>
+                  </div>
+                  <div class="content__column">
+                     <div class="content__item">
+                        <div class="content__icon">
+                           <img src="img/healthcare/icon2.svg" alt="иконка 2">
+                        </div>
+                        <div class="content__body">
+                           <div class="content__title">
+                              24x7 Medical support
+                           </div>
+                           <div class="content__text">
+                              Consult with 10,000+ health workers about your concerns.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="content-item__decor _3"></div>
+                  </div>
+                  <div class="content__column">
+                     <div class="content__item">
+                        <div class="content__icon">
+                           <img src="img/healthcare/icon3.svg" alt="иконка 3">
+                        </div>
+                        <div class="content__body">
+                           <div class="content__title">
+                              Conditions
+                           </div>
+                           <div class="content__text">
+                              Bringing premium healthcare features to your fingertips.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="content-item__decor _4"></div>
+                  </div>
+
+
                </div>
             </div>
-         </div>
+         </section>
       </main>
 
-<footer class="footer">
-   <div class="footer__container">
-      <a href="#" class="footer__logo">
-         Sweet Dream
-      </a>
-      <nav class="footer__menu menu">
-         <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Корзина <span>( 0 )</span></a></li>
-         </ul>
-      </nav>
-      <div class="footer__copyright">
-         ©Sweet Dream 2020-2022
-      </div>
-
+      <footer class="footer">
+         <a href="#"><img src="img/footer/googlePlay.png" alt="Гугл плэй"></a>
+         <a href="#"><img src="img/footer/appStore.png" alt="Апп стор"></a>
+      </footer>
    </div>
-</footer>   </div>
    <script src="js/script.js"></script>
 </body>
 
